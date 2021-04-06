@@ -27,12 +27,12 @@ function loadExternalResource(url, type) {
 // 加载 waifu.css live2d.min.js waifu-tips.js
 if (screen.width >= 768) {
 	Promise.all([
-		loadExternalResource("https://cdn.jsdelivr.net/gh/nootifmemory/live2d-widget@main/waifu.css", "css"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/nootifmemory/live2d-widget@main/live2d.min.js", "js"),
-		loadExternalResource("https://cdn.jsdelivr.net/gh/nootifmemory/live2d-widget@main/waifu-tips.js", "js")
+		loadExternalResource("https://cdn.jsdelivr.net/gh/nootifmemory/live2d@main/waifu.css", "css"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/nootifmemory/live2d@main/live2d.min.js", "js"),
+		loadExternalResource("https://cdn.jsdelivr.net/gh/nootifmemory/live2d@main/waifu-tips.js", "js")
 	]).then(() => {
 		initWidget({
-			waifuPath: "https://cdn.jsdelivr.net/gh/nootifmemory/live2d-widget@main/waifu-tips.json",
+			waifuPath: "https://cdn.jsdelivr.net/gh/nootifmemory/live2d@main/waifu-tips.json",
 			//apiPath: "https://live2d.fghrsh.net/api/",
 			cdnPath: "https://cdn.jsdelivr.net/gh/fghrsh/live2d_api/"
 		});
