@@ -1,5 +1,5 @@
 // Note: The live2d_path parameter should use an absolute path
-const live2d_path = "https://cdn.jsdelivr.net/gh/nootifmemory/live2d-widget@master/";
+const live2d_path = "https://cdn.jsdelivr.net/gh/nootifmemory/live2d@main/";
 //const live2d_path = "/live2d-widget/";
 
 // Encapsulate the method of asynchronously loading resources
